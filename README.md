@@ -1,13 +1,13 @@
 # ActiveMQ - JMS - Java Lab Config
 
 ## Intro
-If you don't know about JMS, check (this)[http://www.coderpanda.com/jms-tutorial/]
+If you don't know about JMS, check [this](http://www.coderpanda.com/jms-tutorial/)
 
 
 ## Install
 ### Setting up ActiveMq
 
-You can simply get a docker container with everything install it, (refer to this guide)[https://hub.docker.com/r/cloudesire/activemq/],
+You can simply get a docker container with everything install it, [refer to this guide](https://hub.docker.com/r/cloudesire/activemq/),
 or in the docker bash run this:
 ```sh
 $ docker run -p 61616:61616 -p 8161:8161 cloudesire/activemq
@@ -19,7 +19,7 @@ Password: admin
 
 The port 8161 is for the admin console, the other one is the listener
 
-Also, you can manually install it by following the instructions in the (Apache website)[http://activemq.apache.org/download.html]
+Also, you can manually install it by following the instructions in the [Apache website](http://activemq.apache.org/download.html)
 
 ### Setting our Pom.xml
 
@@ -57,4 +57,4 @@ You will need some libraries, here you have the dependencies:
 
 ## References
 
-- (Tutorial JMS - ACTIVEMQ)[http://www.coderpanda.com/jms-example-using-apache-activemq/]
+- [Tutorial JMS - ACTIVEMQ](http://www.coderpanda.com/jms-example-using-apache-activemq/)
