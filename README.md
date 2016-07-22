@@ -7,7 +7,7 @@ If you don't know about JMS, check [this](http://www.coderpanda.com/jms-tutorial
 ## Install
 ### Setting up ActiveMq
 
-You can simply get a docker container with everything install it, [refer to this guide](https://hub.docker.com/r/cloudesire/activemq/),
+You can simply get a docker container with everything installed, [refer to this guide](https://hub.docker.com/r/cloudesire/activemq/),
 or in the docker bash run this:
 ```sh
 $ docker run -p 61616:61616 -p 8161:8161 cloudesire/activemq
